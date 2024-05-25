@@ -1,0 +1,1 @@
+package com.jisu.springmongo.constants;import java.util.regex.Pattern;public class AppConstants {    public static final String EMAIL_REGEX =            "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";    public static final long JWT_EXPIRATION_TIME = 5 * 60 * 60;}

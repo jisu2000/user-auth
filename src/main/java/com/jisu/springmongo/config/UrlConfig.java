@@ -1,0 +1,1 @@
+package com.jisu.springmongo.config;public class UrlConfig {    public static final String[] PUBLIC_URL= {            "/api/v1/auth/**",            "/test"    };    public static final String[] PRIVATE_URL = {            "/api/v1/users/**"    };}

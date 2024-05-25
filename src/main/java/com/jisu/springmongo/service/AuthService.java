@@ -1,0 +1,1 @@
+package com.jisu.springmongo.service;import com.jisu.springmongo.dto.request.LoginRequest;import com.jisu.springmongo.dto.request.UserRequestDTO;import com.jisu.springmongo.dto.response.UserResponseDTO;import java.util.Map;public interface AuthService {    Map login(LoginRequest loginRequest);    UserResponseDTO registerUser(UserRequestDTO user);}

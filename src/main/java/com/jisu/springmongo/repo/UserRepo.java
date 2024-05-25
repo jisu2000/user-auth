@@ -1,0 +1,1 @@
+package com.jisu.springmongo.repo;import com.jisu.springmongo.model.UserEO;import org.springframework.data.mongodb.repository.MongoRepository;public interface UserRepo extends MongoRepository<UserEO, String> {    UserEO findByEmail(String email);    UserEO findByMobileNumber(String mobile);}

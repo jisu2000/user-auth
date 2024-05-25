@@ -1,0 +1,1 @@
+package com.jisu.springmongo.enums;public enum Gender {    MALE,FEMALE,OTHER;}
