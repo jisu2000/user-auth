@@ -1,0 +1,1 @@
+package com.jisu.springmongo.dto.request;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@NoArgsConstructor@AllArgsConstructor@Datapublic class MailRequest{    private String subject;    private String body;    private String recipentEmail;}
